@@ -7,7 +7,7 @@ edition = "2021"
 default-target = "riscv32imac-unknown-none-elf"
 
 [dependencies]
-# ch32v2 = { path = "../ch32-rs-nightlies/ch32v2", features = [
+# ch32v2 = { path = "../src/ch32-rs-nightlies/ch32v2", features = [
 #     "ch32v20x",
 #     "critical-section",
 # ] }
